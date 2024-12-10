@@ -1,9 +1,24 @@
-# pcRamUsage
-## Esta aplicação foi desenvolvida em aula durante de introdução ao Node.js no bootcamp fullstack na plataforma DIO. 
-## O que ela faz? 
-### Na página localhost:3000 ela aprensenta uma mensagem de boas vindas, e ao mudar para a localhost:3000/stats é possível ver as informações abaixo (Essas informações também aparecem no terminal ao executar o comando "node server.js"):
-* SO;
-* Arquitetura;
-* Memória RAM total em MB;
-* Memória RAM livre em MB;
-* Porcentagem livre da memória RAM; 
+# System RAM Monitor 🖥️  
+
+### Descrição  
+Este projeto foi desenvolvido como parte de um estudo no Bootcamp da DIO para monitorar informações locais de uso de memória RAM no sistema. O objetivo é capturar e exibir no console dados relacionados ao uso atual de RAM no dispositivo onde o código é executado.
+
+---
+
+### Funcionalidades  
+- Monitoramento de uso de RAM em tempo real.  
+- Exibição de informações sobre a quantidade de memória utilizada e disponível no console.  
+
+---
+
+### Melhorias Planejadas  
+- Criar uma interface gráfica para apresentar os dados de forma visual.  
+- Adicionar opções de intervalo de monitoramento para personalizar os testes.  
+- Criar alertas para quando o uso de RAM exceder um limite definido.
+
+---
+
+### Como Executar  
+1. Clone o repositório:  
+   ```bash  
+   git clone https://github.com/seu-usuario/system-ram-monitor.git  
